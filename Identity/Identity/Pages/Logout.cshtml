@@ -1,0 +1,14 @@
+﻿@page
+@model Identity.Pages.LogoutModel
+@{
+}
+
+<form method="post">
+    <div class="cointainer mt-5">
+        <div class="col-sm-12 col-md-12 col-lg-4">
+            <p> Do you want logout?</p>
+            <button class="btn btn-primary" asp-page-handler="Logout">Yes</button>
+            <button class="btn btn-light ml-5 border-dark" asp-page-handler="DontLogout">No</button>
+        </div>
+    </div>
+</form>
